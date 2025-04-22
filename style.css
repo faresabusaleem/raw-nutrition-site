@@ -1,0 +1,88 @@
+body {
+    background-image: url("nutrition_background.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    color: #333;
+    margin: 0;
+  }
+  
+  .content {
+    width: 70%;
+    max-height: 95vh;
+    background-color: rgba(255, 255, 255, 0.92);
+    margin: auto;
+    position: absolute;
+    overflow-y: auto;
+    padding: 40px 60px;
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .content h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #2e7d32;
+  }
+  
+  .content p, .content ul {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+  
+  .content ul {
+    padding-left: 20px;
+  }
+  
+  .content li {
+    margin-bottom: 10px;
+  }
+  
+  .ratings {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 30px;
+  }
+  
+  .ratings div {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    height: auto;
+    width: 260px;
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    text-align: center;
+  }
+  
+  .ratings div:hover {
+    transform: scale(1.1);
+  }
+  
+  .big-icon {
+    font-size: 48px;
+    margin: 15px 0;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
